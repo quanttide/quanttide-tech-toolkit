@@ -1,0 +1,31 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+authors = [
+    {name = "QuantTide", email = "opensource@quanttide.com"},
+]
+license = {text = "Apache 2.0"}
+requires-python = ">=3.10"
+dependencies = []
+name = "quanttide-tech"
+version = "0.1.0"
+description = "量潮技术工具箱Python包——跨业务、跨领域流程整合"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=7.3.1",
+    "coverage>=7.2.6",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/quanttide_tech"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

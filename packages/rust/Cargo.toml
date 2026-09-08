@@ -1,0 +1,10 @@
+[package]
+name = "quanttide-tech"
+version = "0.1.0"
+edition = "2024"
+description = "量潮技术工具箱Rust包——跨业务、跨领域流程整合"
+authors = ["QuantTide <opensource@quanttide.com>"]
+license = "Apache-2.0"
+repository = "https://github.com/quanttide/quanttide-tech-toolkit"
+
+[dev-dependencies]
