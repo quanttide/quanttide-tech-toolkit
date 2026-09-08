@@ -10,5 +10,8 @@
 |------|------|------|
 | Python | [`packages/python`](packages/python) | Python 包 `quanttide-tech`，uv + hatchling，src 布局 |
 | Rust | [`packages/rust`](packages/rust) | Rust crate `quanttide-tech`，Cargo 标准布局 |
+| Dart | [`packages/dart`](packages/dart) | Dart SDK `quanttide_tech`，`lib/` + `test/` 布局 |
+| Go | [`packages/go`](packages/go) | Go 子目录模块，`pkg/` 布局 |
+| TypeScript | [`packages/typescript`](packages/typescript) | npm 包 `quanttide-tech`，tsc + vitest，ESM |
 
 各语言包独立演进，共用仓库版本号各自管理（见各自 CHANGELOG）。

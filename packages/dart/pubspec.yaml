@@ -1,0 +1,11 @@
+name: quanttide_tech
+description: 量潮技术工具箱 Dart SDK——跨业务、跨领域流程整合
+version: 0.1.0
+homepage: https://github.com/quanttide/quanttide-tech-toolkit
+repository: https://github.com/quanttide/quanttide-tech-toolkit
+
+environment:
+  sdk: ^3.12.0
+
+dev_dependencies:
+  test: ^1.25.0
