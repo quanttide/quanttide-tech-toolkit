@@ -1,6 +1,6 @@
-# 量潮技术工具箱（quanttide-tech-toolkit）
+# 量潮技术标准库（quanttide-tech-toolkit）
 
-应用层工具集——跨业务、跨领域流程整合。
+应用层标准库——跨业务、跨领域流程整合。
 
 > 本仓库由 ROADMAP 预留项转为实体仓库（2026-08-10 创建），定位见元仓库 quanttide-toolkit 的 [README](https://github.com/quanttide/quanttide-toolkit/blob/main/README.md)。
 
