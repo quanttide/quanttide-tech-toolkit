@@ -1,7 +1,7 @@
 /// 课程域（course）——大作业与互动编排的域包。
 ///
 /// 架构遵循 BLoC 规范，按层分目录：
-/// - `models/`：数据模型（Assignment 等定义层对象）
+/// - `models/`：数据模型（Assignment 定义层、DecompositionNode 序列层等）
 /// - `states/`：状态类——随第一条工作流落地
 /// - `events/`：输入事件——随第一条工作流落地
 /// - `bloc/`：业务逻辑——随第一条工作流落地
@@ -12,3 +12,4 @@
 library;
 
 export 'models/assignment.dart';
+export 'models/decomposition_node.dart';
